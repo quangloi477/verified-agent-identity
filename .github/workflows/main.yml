@@ -25,9 +25,6 @@ jobs:
         with:
           node-version: '20'
 
-      - name: Bước 1 - Cài đặt ClawHub
-        run: npx clawhub@latest install verified-agent-identity
-
       - name: Cài đặt các thư viện cần thiết
         run: |
           cd scripts
